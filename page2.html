@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+  color: #0a1d35;
+}
+
+body {
+  font-family: 'Josefin Sans';
+  padding: 10px;
+  background: #000000;
+}
+
+.header {
+  padding: 30px;
+  text-align: left;
+  background: #000000;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-style: initial;
+  color: #eeeeee;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  padding: 5px;
+}
+
+.leftcolumn h2{
+    text-align: center;
+    font-size: 80px;
+    font: lighter;
+}
+
+.leftcolumn a{
+    text-align: center;
+    outline: green;
+    outline-style: groove;
+    font-size: 30px;
+    color: green;
+
+}
+
+.leftcolumn a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.rightcolumn li{
+    padding-bottom: 5px;
+}
+
+.rightcolumn a {
+    font-size: 15px;
+    color: #6492cf;
+    padding-bottom: 5px;
+
+}
+
+.card {
+  background-color: rgba(217, 219, 193, 0.548);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Aufenbach</h1>
+  <p style = "color: ivory">Innovation is the path to the future</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Projects</a>
+  <a href="#">blog</a>
+  <a href="#" style="float:right">Contact</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>INNOVATE. DESIGN. ENGINEER</h2>
+      <a href = '#'>Explore</a>
+      <img src="https://www.aufenbach.com/wp-content/uploads/2019/04/cropped-background.jpg" alt="Aufenbach" width = 900px, height = 600px>
+    </div>
+    <div class="card">
+      <h2>ABOUT US</h2>
+      <h5>Problems are everywhere. Mankind understands some, 
+          fails to discern many. At Aufenbach, we are problem solvers.
+           We don't believe in learning to live with the problems, but
+            rather look for or come up with solutions. We intend to 
+            design products, solutions and frameworks to enable the human 
+            race to move forward. We cover various fields of science and technology 
+            at various scales, and strive to innovate and engineer solutions with the optimal
+             balance of efficiency and quality for the given resources.
+            Your problems, our adventure. </h5>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Popular Bolgs</h2>
+      <ul>
+            <li><a href="#">Stress Level Zero’s New Game ‘Boneworks’ Revealed, 
+              Striving for “Hyper-realistic” Physics-based Interactions</a></li>
+            <li><a href = "#">Fighting the NGLY1 Deficiency: An unorthodox approach</a></li>
+            <li><a href="#">These Gloves Can Teach You to Play the Piano. And Maybe Heal Your Brain.</a></li>
+      </ul>
+    
+    </div>
+    <div class="card">
+      <h3>Projects</h3>
+      <p>Not all problems are apparent and conspicuous;
+           dive deep and analyse trivial annoyances, get to its root,
+            as there lies opportunity for improvement and growth. Ideate in tranquility.
+             Use psychological artifices to really think outside the box. </p>
+      <h3>Creativity</h3>
+      <p>Creativity isn't just in art and craft.
+           It's everywhere. Exhibit visually, as it instigates creativity.
+            Blueprint with iterative feedback to empathize with the end user.
+             Consider the holistic standpoint, where design, engineering and business meet.</p>
+      <h3>Engineer</h3>
+      <p>Build. Performance, quality, reliability, effectivity and efficiency, all optimized.
+           The know-how, depth and breadth and how the different spheres connect. Au courant and
+            au fait with the latest technology available, and the will to push beyond. </p>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Destination Tomorrow</h2>
+  <h4>Copyright © 2019 Aufenbach Pvt. Ltd. All Rights Reserved.</h4>
+</div>
+
+</body>
+</html>
